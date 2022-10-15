@@ -99,6 +99,7 @@ button{
     background-color: var(--Green);
     padding: 1rem;
     letter-spacing: .1rem;
+    margin-bottom: .5rem;
     box-shadow: 0px -1px 5px 0px rgba(62,60,73,1) inset;
     -webkit-box-shadow: 0px -1px 5px 0px rgba(62,60,73,1) inset;
     -moz-box-shadow: 0px -1px 5px 0px rgba(62,60,73,1) inset;
@@ -126,11 +127,19 @@ button:hover{
     }
     main{
         flex-direction: column;
+        padding: 2rem 0;
     }
     .left-section{
         padding: 0;
+        text-align: center;
     }
     h1{
         font-size: 2rem;
+    }
+    .free-trial{
+        padding: 1.2rem 4rem;
+    }
+    .right-section{
+        padding: 2rem;
     }
 }
