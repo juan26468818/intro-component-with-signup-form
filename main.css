@@ -130,10 +130,7 @@ button:hover{
     h1{
         font-size: 2rem;
     }
-    .free-trial{
-        padding: 1.2rem 4rem;
-    }
     .right-section{
-        padding: 2rem;
+        padding: 1rem;
     }
 }
